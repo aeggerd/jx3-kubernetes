@@ -36,7 +36,7 @@ jxRequirements:
   - key: staging
   - key: production
   ingress:
-    domain: change.me
+    domain: analy.sbs
     kind: ingress
     namespaceSubDomain: -kuberhealthy.
     tls:

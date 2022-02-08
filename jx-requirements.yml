@@ -5,11 +5,12 @@ spec:
     enabled: false
     schedule: ""
   cluster:
-    chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
-    clusterName: kind
+    chartRepository: https://chartmuseum.12ab.pw/
+    #chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
+    clusterName: 12prod
     devEnvApprovers:
     - todo
-    environmentGitOwner: todo
+    environmentGitOwner: aeggerd
     gitKind: github
     gitName: github
     gitServer: https://github.com
@@ -20,7 +21,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "analy.sbs"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:

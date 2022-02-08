@@ -25,7 +25,7 @@ jxRequirements:
     clusterName: kind
     devEnvApprovers:
     - todo
-    environmentGitOwner: todo
+    environmentGitOwner: aeggerd
     gitKind: github
     gitName: github
     gitServer: https://github.com
@@ -36,7 +36,7 @@ jxRequirements:
   - key: staging
   - key: production
   ingress:
-    domain: change.me
+    domain: analy.sbs
     kind: ingress
     namespaceSubDomain: -jx.
     tls:
